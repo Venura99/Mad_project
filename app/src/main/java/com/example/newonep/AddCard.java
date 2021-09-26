@@ -21,7 +21,7 @@ public class AddCard extends AppCompatActivity {
     EditText editText4;
     EditText editText5;
     Button button;
-
+    DatabaseReference ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
