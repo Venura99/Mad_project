@@ -58,8 +58,7 @@ public class AddCard extends AppCompatActivity {
                     editText5.setError("Bank name is required");
                 }else {
 
-                    CardDetails cardDetails = new CardDetails(Ownername,cardNum,expireDate,Csv,bank);
-                    ref.child(cardNum).setValue(cardDetails);
+
 
                     Toast.makeText(AddCard.this, "Successfully added", Toast.LENGTH_SHORT).show();
 
