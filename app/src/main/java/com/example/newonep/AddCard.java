@@ -48,7 +48,8 @@ public class AddCard extends AppCompatActivity {
 
                 if (Ownername.isEmpty()) {
                     editText1.setError("Name is required");
-                }
+                }else if (cardNum.isEmpty()) {
+                    editText2.setError("Card Number is required");
                 }else if (expireDate.isEmpty()) {
                     editText3.setError("Expire date Number is required");
                 }else if (Csv.isEmpty()) {
